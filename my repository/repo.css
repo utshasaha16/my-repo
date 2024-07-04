@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.content{
+    height:90vh;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/940476300/photo/the-businessman-puts-a-stamp-on-the-contract.jpg?s=612x612&w=0&k=20&c=snpGkrMxvQgnpQIcdsyLMIZgqXqQte5z7ApV1JgQFSY=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.banner{
+    color: #ffffffce;
+    text-align:center;
+    width: 70%;
+}
+
+.content h2{
+font-size: 54px;
+color: #db714e;
+text-transform: uppercase;
+}
+
+.content p{
+    font-size: 23px;
+    margin: 15px 0;
+}
+
+.banner button{
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 17px 35px;
+    font-size: 15px;
+    cursor: progress;
+
+}
+
+.content button:hover{
+    background-color: #068858;
+    transition: 0.5s ease-in;
+}
